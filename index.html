@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Datta Srivatsavaya | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top left, #1e1e2f, #12121c);
+      color: #f4f4f4;
+      line-height: 1.7;
+    }
+
+    header, section, footer {
+      max-width: 1000px;
+      margin: 1rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+      color: #00ffe7;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #a8e6ff;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    nav ul li a {
+      color: #00eaff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    h2 i {
+      margin-right: 0.6rem;
+      color: #00eaff;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #80f1ff;
+      border-bottom: 2px solid #00d9ff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    ul li strong {
+      color: #00ffe7;
+      font-size: 1.05rem;
+    }
+
+    a {
+      color: #00dfff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section, header, footer {
+        padding: 1.2rem;
+        margin: 1rem;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      header p {
+        font-size: 0.9rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      ul li {
+        font-size: 0.95rem;
+      }
+      ul li strong {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sri Datta Srivatsavaya</h1>
+    <p>Full Stack Developer | Cloud Computing Enthusiast</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2><i class="fas fa-user"></i>About Me</h2>
+    <p>Passionate and results-driven Full Stack Developer with a keen interest in Cloud Computing. Skilled in Java, Spring Boot, Angular, AWS, and modern development practices. Committed to building scalable, secure, and innovative solutions that make a difference. Eager to take on new challenges and contribute to impactful technology.</p>
+  </section>
+
+  <section id="experience">
+    <h2><i class="fas fa-briefcase"></i>Experience</h2>
+    <ul>
+      <li><strong>Cloud AWS Intern – Wipro</strong> (Apr 2022 – Jun 2022)<br><em>Hyderabad, India</em>
+        <ul>
+          <li>Contributed to the "Velocity – Cloud AWS" project using Infrastructure as Code (IaC) practices.</li>
+          <li>Managed AWS services (EC2, S3, IAM, VPC) and automated processes via AWS CLI and CloudFormation.</li>
+          <li>Implemented frontend components with HTML/CSS and integrated them with backend Java logic.</li>
+        </ul>
+      </li>
+      <li><strong>Full Stack Developer Intern – Virtual Internship</strong> (Jan 2023 – Mar 2023)
+        <ul>
+          <li>Engineered a mini CRM system using Angular and Spring Boot with role-based access control.</li>
+          <li>Built secure REST APIs and developed a responsive user interface.</li>
+          <li>Deployed the application to AWS EC2 using CI/CD pipelines with GitHub Actions.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2><i class="fas fa-code"></i>Projects</h2>
+    <ul>
+      <li><strong>ShopForHome – Cloud-Based E-Commerce App</strong><br>Java, Spring Boot, Angular, MySQL, AWS<br>Built a dynamic home décor e-commerce platform with secure login (JWT), order management, and scalable deployment using microservices on AWS.</li>
+      <li><strong>Student Result Management System</strong><br>Java Swing, MySQL<br>Developed a desktop application for tracking student records using MVC pattern and role-based access.</li>
+      <li><strong>AWS Resource Monitor – Real-Time Dashboard</strong><br>Flask, Boto3, AWS CloudWatch, Terraform<br>Real-time monitoring tool for AWS EC2 instances with automated alerting and infrastructure provisioning.</li>
+      <li><strong>Portfolio Website</strong><br>HTML, CSS, JavaScript, GitHub Pages<br>Designed and deployed a personal website to showcase resume, project portfolio, and contact information.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2><i class="fas fa-certificate"></i>Certifications</h2>
+    <ul>
+      <li>Oracle APEX Cloud Certified Developer – Oracle</li>
+      <li>AWS Cloud Internship – Wipro Velocity Program</li>
+      <li>OOP with Java – Coursera</li>
+      <li>Build a Portfolio Website with HTML and CSS – Coursera</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2><i class="fas fa-envelope"></i>Contact</h2>
+    <p>Email: <a href="mailto:svsridatta04@gmail.com">svsridatta04@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sridatta-srivatsavaya-0843692ab/" target="_blank">sridatta-srivatsavaya</a></p>
+    <p>Phone: +1 940-595-6712</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sri Datta Srivatsavaya</p>
+  </footer>
+</body>
+</html>
